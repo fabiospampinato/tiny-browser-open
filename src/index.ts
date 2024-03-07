@@ -9,14 +9,14 @@ import type {Browser, Options} from './types';
 
 const CHROME_APPS = {
   darwin: 'google chrome',
-  linux: 'google-chrome',
+  linux: 'google-chrome-stable',
   win32: 'chrome'
 };
 
 const FIREFOX_APPS = {
   darwin: 'firefox',
   linux: 'firefox',
-  win32: 'C:\\Program Files\\Mozilla Firefox\\firefox.exe'
+  win32: 'firefox'
 };
 
 const EDGE_APPS = {
