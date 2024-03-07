@@ -1,0 +1,31 @@
+{
+  "name": "tiny-browser-open",
+  "repository": "github:fabiospampinato/tiny-browser-open",
+  "description": "A tiny utility for opening a file or a URL inside a browser of your choosing.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "tiny",
+    "browser",
+    "open",
+    "file",
+    "url"
+  ],
+  "dependencies": {
+    "tiny-open": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "tsex": "^3.2.0",
+    "typescript": "^5.4.2"
+  }
+}
