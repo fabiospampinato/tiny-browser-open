@@ -38,14 +38,13 @@ const APPS = {
 
 /* MAIN */
 
-//TODO: Add some introspection/error handling
 //TODO: Add support for other possible variants of these browsers, opening up the first one available
 
-const browserOpen = ( url: string, options?: Options ): void => {
+const browserOpen = ( url: string, options?: Options ): Promise<boolean> => {
 
   const app = APPS[options?.app || '']?.[process.platform];
 
-  open ( url, { app } );
+  return open ( url, { app } );
 
 };
 
