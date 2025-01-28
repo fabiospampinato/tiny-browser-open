@@ -2,6 +2,7 @@
   "name": "tiny-browser-open",
   "repository": "github:fabiospampinato/tiny-browser-open",
   "description": "A tiny utility for opening a file or a URL inside a browser of your choosing.",
+  "license": "MIT",
   "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -21,11 +22,11 @@
     "url"
   ],
   "dependencies": {
-    "tiny-open": "^1.1.1"
+    "tiny-open": "^1.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.4.2",
-    "tsex": "^3.2.0",
-    "typescript": "^5.4.2"
+    "@types/node": "^18.19.74",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
